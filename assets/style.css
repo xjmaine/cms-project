@@ -1,0 +1,32 @@
+body{
+  padding-top: 120px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+  width: 500px;
+  margin:0 auto ;
+}
+
+a:link, a:visited{
+  color: slategray;
+  text-decoration: none;
+  border-bottom: 1px dotted slategray;
+}
+
+a:hover{
+  color: #444;
+  border-bottom: #444;
+}
+
+
+/*set font style for the article time-stamp*/
+small{
+  color: #999;
+  font-style: italic;
+}
+
+p{
+  line-height: 25px;
+  text-align: justify;
+}
