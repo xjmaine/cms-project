@@ -15,7 +15,7 @@
         {
             global $pdo; 
             $query = $pdo->prepare("SELECT * FROM articles WHERE article_id=?");
-            $query -> bindValue(1, $article_id);
+            $query = bindValue(1, $article_id);
             $query->execute();
 
             return $query->fetch();

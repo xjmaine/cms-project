@@ -1,0 +1,12 @@
+1. create db and name it cms (mysql)
+
+2. create table name users wit the following fields
+    user_id int primary autoincrement
+    user_name varchar(255)
+    user_password varchar(255)
+
+3. create table named articles
+    article_id int primary autoincrement
+    article_title varchar(255)
+    article_content text 
+    article_timestamp int

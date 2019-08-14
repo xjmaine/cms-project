@@ -3,6 +3,7 @@
    include_once('includes/article.php');
     //instantiate the class article
     $article = new Article;
+    
    //get page id from user
    if(isset($_GET['id']))
    {

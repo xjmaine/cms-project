@@ -4,6 +4,7 @@
 
    $article = new Article; //instance of clas article
    $articles = $article->fetch_all();
+   
 
   // print_r($articles);
    // echo time();
@@ -31,6 +32,8 @@
                 </li>
             <?php }?>
             </ol>
+            <br/>
+            <small><a href="admin">admin</small>
 </div>
      <body>
 
