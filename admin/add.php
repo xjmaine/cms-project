@@ -56,10 +56,10 @@
                     </form>
                     <small><a href="../index.php">Main Page</small>
             </div>
-            <body>
+                </body>
 
         </html>
-        
+
         <?php
     } else{
         //redirect to index
