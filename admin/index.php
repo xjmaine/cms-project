@@ -6,25 +6,25 @@
     if(isset($_SESSION['logged_in'])){
         //index
         ?>
-     <html>
-    <head>
-        <title> CMS Demo</title>
-        <link rel="stylesheet" href="../assets/style.css"/>
-    </head>
+    <html>
+        <head>
+            <title> CMS Module</title>
+            <link rel="stylesheet" href="../assets/style.css"/>
+        </head>
 
-    <body>
-        <div class="container">
-            <a href="index.php" id="logo">CMS</a>
-            <br>
-            <ol>
-            <li><a href="add.php">Add Article</a></li>
-            <li><a href="delete.php">Delete Article</a></li>
-            <li><a href="logout.php">Logout</a></li>
-            </ol>
-            <br/>
-            <small><a href="../index.php">Main Page</small>
-    </div>
-     <body>
+        <body>
+            <div class="container">
+                <a href="index.php" id="logo">CMS Module | Admin Login</a>
+                <br>
+                <ol>
+                    <li><a href="add.php">Add Article</a></li>
+                    <li><a href="delete.php">Delete Article</a></li>
+                    <li><a href="logout.php">Logout</a></li>
+                </ol>
+                <br/>
+                <small><a href="../index.php">Main Page</small>
+        </div>
+        <body>
 
     </html>
         <?php
@@ -63,13 +63,13 @@
 
     <html>
     <head>
-        <title> CMS Demo</title>
+        <title> CMS Module</title>
         <link rel="stylesheet" href="../assets/style.css"/>
     </head>
 
     <body>
         <div class="container">
-            <a href="index.php" id="logo">CMS</a>
+            <a href="index.php" id="logo">CMS Module | Admin Login</a>
             <br>
             <br/>
             <?php if(isset($error)) { ?>
@@ -85,7 +85,9 @@
         </form>
     
             <br/>
-            <small><a href="../index.php">Main Page</small>
+            <small>
+                <a href="../index.php">&larr; Main Page
+            </small>
     </div>
      <body>
 
